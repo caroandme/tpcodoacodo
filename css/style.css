@@ -524,6 +524,10 @@ top:9%;
     max-width: 100%;
     max-height: 70%;
   }     
+  .columnS p {
+    text-align: left;
+    font-size:x-small;
+  }
 }
 @media screen and (max-width: 900px) {
     .contentS iframe {
