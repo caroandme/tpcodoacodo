@@ -6,8 +6,7 @@ window.addEventListener('load', ()=> {
     const apellido= document.getElementById('apellido')
     const email = document.getElementById('email')
     const mensaje= document.getElementById('mensaje')
-    /*const pass = document.getElementById('pass')
-    const passConfirma = document.getElementById('passConfirma')*/
+  
 
     form.addEventListener('submit', (e) => {
         e.preventDefault()
@@ -50,26 +49,12 @@ window.addEventListener('load', ()=> {
             validaOk(email)
         }
          //validando campo mensaje
-         /*const er = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,18}$/ */         
+             
          if(mensajeValor.length>450) {
              validaFalla(mensaje, 'Pasó el límite de 450 caracteres')
-         } /*else if (passValor.length < 8) {             
-             validaFalla(pass, 'Debe tener 8 caracteres cómo mínimo.')
-         } else if (!passValor.match(er)) {
-             validaFalla(pass, 'Debe tener al menos una may., una min. y un núm.')
-         }*/ else {
+         } else {
              validaOk(mensaje)
          }
-
-         //validando campo password Confirmación
-         /*if(!passConfirmaValor){
-             validaFalla(passConfirma, 'Confirme su password')
-         } else if(passValor !== passConfirmaValor) {
-             validaFalla(passConfirma, 'La password no coincide')
-         } else {
-             validaOk(passConfirma)
-         }*/
-
 
     }
 
