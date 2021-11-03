@@ -94,9 +94,6 @@ body {
 
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
-    .logo{
-
-    }
     .header a {
       display:unset;
       text-align: left; 
@@ -565,7 +562,7 @@ top:9%;
       margin-right: 25%;
   }        
 }
-}
+
 
 /*PAGINA CONTACTO*/
 .contenedor {
