@@ -279,6 +279,10 @@ top:9%;
 /*SECCION CONSULTORIA INDEX*/
 
 /* COLUMNAS side by side */
+
+row.{
+  position: relative;
+}
 .column {
   float: left;
   width: 23%;
@@ -295,11 +299,7 @@ top:9%;
       
 
   }
-  .row {
-    height: fit-content;
-    overflow:clip;
-  }
- 
+   
 }
 
 /*SOMBRA TARJETAS*/
@@ -315,12 +315,12 @@ top:9%;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+/*.container::after, .row::after {
   content: "";
   clear: both;
   display: table;
    
-}
+}*/
 
 .button {
   border: none;
