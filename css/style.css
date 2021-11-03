@@ -94,6 +94,7 @@ body {
 
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
+    
     .header a {
       display:unset;
       text-align: left; 
@@ -279,7 +280,6 @@ top:9%;
 /*SECCION CONSULTORIA INDEX*/
 
 /* COLUMNAS side by side */
-
 .column {
   float: left;
   width: 23%;
@@ -293,7 +293,8 @@ top:9%;
 @media screen and (max-width: 650px) {
   .column {
     width: 100%; 
-    
+        
+
   }
  
 }
@@ -439,7 +440,7 @@ top:9%;
 @media screen and (max-width: 650px) {
  .footer1{
    visibility:hidden;
- /*Tuve que esconderlo porque me queda en el medio de la sección anterior, no hay caso, intente todo*/
+ /*Tuve que esconderlo porque caia en el medio de la sección anterior*/
  }
   .columnf {
       width: 100%;
@@ -463,9 +464,7 @@ top:9%;
       float: none;
       display: block;
       text-align: left;
-     
     }
-
 }
 
 
@@ -679,5 +678,4 @@ display: block;
   .contenedor {
     margin-top:11%;
   }
-}
-}
+}}
