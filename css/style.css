@@ -381,8 +381,6 @@ top:9%;
     padding: 20px 10px;
     font-family:'Poppins', sans-serif;
     color: #e9e9e9;
-    position: relative;
-    
         
   }
   .footer1 {
@@ -439,9 +437,9 @@ top:9%;
   
   /*RESPONSIVE FOOTER */
 @media screen and (max-width: 650px) {
- /*.footer1{
-   visibility:hidden;*/
- 
+ .footer1{
+   visibility:hidden;
+ /*Tuve que esconderlo porque me queda en el medio de la sección anterior, no hay caso, intente todo*/
  }
   .columnf {
       width: 100%;
@@ -462,18 +460,12 @@ top:9%;
   /* RESPONSIVE FOOTER*/
   @media screen and (max-width: 500px) {
     .footer div {
-      float:none;
+      float: none;
       display: block;
       text-align: left;
      
     }
 
-    .footer{
-      position: relative;
-      float: inline-end;
-    
-     
-    }
 }
 
 
@@ -687,4 +679,5 @@ display: block;
   .contenedor {
     margin-top:11%;
   }
+}
 }
