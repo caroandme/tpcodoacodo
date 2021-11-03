@@ -280,8 +280,9 @@ top:9%;
 
 /* COLUMNAS side by side */
 
-row.{
-  position: relative;
+.row{
+ 
+  overflow: hidden;
 }
 .column {
   float: left;
