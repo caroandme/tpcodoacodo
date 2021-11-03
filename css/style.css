@@ -468,7 +468,7 @@ top:9%;
 
     .footer{
       position: absolute;
-      bottom: -20%;
+      margin-bottom: -100%;
       margin-top: 500%;
     }
 }
