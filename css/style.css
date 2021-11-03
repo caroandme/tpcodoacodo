@@ -1,6 +1,6 @@
 /*ESTILO BODY*/
 body {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column ;
   padding: 0;
