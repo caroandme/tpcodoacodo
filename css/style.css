@@ -292,8 +292,12 @@ top:9%;
 @media screen and (max-width: 650px) {
   .column {
     width: 100%; 
-        
+      
 
+  }
+  .row {
+    height: fit-content;
+    overflow:clip;
   }
  
 }
