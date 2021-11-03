@@ -280,10 +280,6 @@ top:9%;
 
 /* COLUMNAS side by side */
 
-.row{
- 
-  overflow: hidden;
-}
 .column {
   float: left;
   width: 23%;
@@ -297,10 +293,13 @@ top:9%;
 @media screen and (max-width: 650px) {
   .column {
     width: 100%; 
-      
-
+    height: 20%;
+    }
+ 
+  .card img{
+    max-height:15%;
   }
-   
+ 
 }
 
 /*SOMBRA TARJETAS*/
@@ -316,12 +315,12 @@ top:9%;
 }
 
 /* Clear floats */
-/*.container::after, .row::after {
+.container::after, .row::after {
   content: "";
   clear: both;
   display: table;
    
-}*/
+}
 
 .button {
   border: none;
