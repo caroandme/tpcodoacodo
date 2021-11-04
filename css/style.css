@@ -1,3 +1,10 @@
+/*INDICE DEL css*/
+/*GENERAL (body-HEADER- PRIMERA SECCION COMUN) 1-200 aprox*/
+/*INDEX * 205- 444 aprox/
+/*FOOTER 446-541*/
+/*PAGINA SIG 545-651 APROX*/
+/*PAGINA CONTACTO 653  EN ADELANTE*/
+
 /*ESTILO BODY*/
 body {
   position: relative;
@@ -612,6 +619,7 @@ top:5.75%;
  .rowS {
       display: flex;
       flex-direction: column;
+      margin-left: 9%;
             
     }
   
