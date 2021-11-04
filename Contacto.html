@@ -8,56 +8,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="../TPOCTUBRE/css/style.css">
+    <link rel="stylesheet" href="../TPOCTUBRE/css/keyframes.css">
     
     
 </head>
 <body>
     <div class="header">
-         <a href="/index.html"><img src="/img/VA.png" alt="logoVA" class="logo"></a>
+        <a href="../TPOCTUBRE/index.html"><img src="img/VA.png" alt="logoVA" class="logo"></a>
         <div class="header-right">
-        <a href="/index.html">Home</a>
-        <a href="/SIG.html">Soluciones SIG</a>
-        <a class="active"href="/Contacto.html">Contacto </a>
-      </div>
-   </div> 
+            <a href="../TPOCTUBRE/index.html">Home</a>
+            <a href="../TPOCTUBRE/SIG.html">Soluciones SIG</a>
+            <a class="active" href="../TPOCTUBRE/Contacto.html">Contacto</a>
+        </div>
+    </div> 
    
-   <div class="contenedor" style="background-color:#ddd;    border-radius: 2px;  overflow: hidden;    margin-left: 10%;    margin-right: 10%;    margin-bottom: 2%;    margin-top: 6%;    align-items: center;    box-shadow: 19px 20px 8px -9px rgba(0,0,0,0.1);">
+   <div class="contenedor">
             
-            <div class="cabecera" style="background-color: #e26958;    width: 100%;      text-align: center; border-bottom: 3px solid #49b7a2; padding: 2%;">
-                  <h1 style="color: whitesmoke;font-size:x-large; padding-top: 1.5%;"> COMUNICATE CON VISIÓN AMBIENTAL </h1>    
+            <div class="cabecera" >
+                  <h1> COMUNICATE CON VISIÓN AMBIENTAL </h1>    
             </div>
                
-          <form id="formulario" action="procesar.php" method="" style="padding: 3%;">
-              <div class="form-control" style="margin-bottom: 7px; padding-bottom: 5px; position: relative;width:100%;">
-                  <label style= "display: inline-block;  margin-bottom: 3px;width: 100%;text-align: left;font-size:large;" for="usuario">Nombre</label> <br> <input style ="width: 100%; 
-                  height:45px;display: block;"  id="usuario" type="text" placeholder="Escriba su nombre aquí"> 
+          <form id="formulario" action="procesar.php" method="">
+              <div class="form-control">
+                  <label  for="usuario">Nombre</label> <br> <input id="usuario" type="text" placeholder="Escriba su nombre aquí"> 
                   <p></p>
               </div>
               <br>
-              <div class="form-control" style="margin-bottom: 7px; padding-bottom: 5px; position: relative;width:100%;">
-                <label style= "display: inline-block;  margin-bottom: 3px;width: 100%;text-align: left;font-size:large;" for="apellido">Apellido</label> <br> <input style ="width: 100%; 
-                height:45px;display: block;" id="apellido" type="text" placeholder="Escriba su apellido aquí"> 
+              <div class="form-control">
+                <label for="apellido">Apellido</label> <br> <input id="apellido" type="text" placeholder="Escriba su apellido aquí"> 
                  <p></p>
               </div>
               <br>
-              <div class="form-control" style="margin-bottom: 7px; padding-bottom: 5px; position: relative;width:100%;">
-                 <label style= "display: inline-block;  margin-bottom: 3px;width: 100%;text-align: left;font-size:large;"for="email">Correo Electrónico</label> <br> <input style ="width: 100%; 
-                 height:45px;display: block;" id="email"type="email" placeholder="Escriba su correo aquí">
+              <div class="form-control">
+                 <label for="email">Correo Electrónico</label> <br> <input  id="email"type="email" placeholder="Escriba su correo aquí">
                  <p></p>
               </div>
                <br> 
-              <div class="form-control" style="margin-bottom: 7px; padding-bottom: 5px; position: relative;width:100%;">
-                  <label style= "display: inline-block;  margin-bottom: 3px;width: 100%;text-align: left;font-size:large;" for="mensaje">Mensaje</label> <br> <textarea name="comentario" id="mensaje" cols="124.5" rows="10"></textarea>
+              <div class="form-control" >
+                  <label for="mensaje">Mensaje</label> <br> <textarea name="comentario" id="mensaje" cols="124.5" rows="10"></textarea>
                   <p></p>
                 </div>
               <br>
               <div class="form-subs">
-                  <label  for="subs"> Quiero suscribirme al Newsletter</label> <input id="subs" style="height: 20px; margin:none; width:8%;" type="checkbox"> 
+                  <label for="subs">Quiero suscribirme al Newsletter</label> <input id="subs" style="height: 20px; margin:none; width:8%;" type="checkbox"> 
               </div>    
               <br> 
-              <button style="background: #e26958;  border:1px solid #e9e9e9;   border-radius: 3px;   color: #f6f6e9;   display: block;   width: 100%;   padding: 10px;   font-size: 18px;"> ENVIAR </button>
+              <button> ENVIAR </button>
           </form> 
          
     </div>  
@@ -91,23 +88,23 @@
 
           <div class="columnf2">         
             <h4 class="h4">CONTACTO</h4>
-                      <div style="text-align: center;">
-                          <a href="mailto:caroandrade07@gmail.com" target="_blank"><img style="max-height: 40px; margin: 2%;" src="/img/redes/mail.png" alt="Correo"></a> 
-                          <a href="https://www.linkedin.com/in/lic-carolina-andrade/" target="_blank"><img style="max-height: 40px;margin: 2%" src="/img/redes/lin.png"alt="LinkedIn"></a>
-                          <a href="https://www.instagram.com/?hl=es"target="_blank"><img style="max-height: 40px;margin: 2%" src="/img/redes/inst.png" alt="Instagram"></a>
-                      </div >
+                  <div style="text-align: center;">
+                    <a href="mailto:caroandrade07@gmail.com" target="_blank"><img style="max-height: 40px; margin: 2%;" src="../TPOCTUBRE/img/redes/mail.png" alt="Correo"></a> 
+                    <a href="https://www.linkedin.com/in/lic-carolina-andrade/" target="_blank"><img style="max-height: 40px;margin: 2%" src="../TPOCTUBRE/img/redes/lin.png"alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/?hl=es"target="_blank"><img style="max-height: 40px;margin: 2%" src="../TPOCTUBRE/img/redes/inst.png" alt="Instagram"></a>
+                </div >
           </div>     
 
     </div>    
       <div style="padding-bottom:10px">   
            <hr style="width: 70%; color: #49b7a2; height: 2px;" >
            <p style="text-align: center; font-size:small ;">Visión Ambiental<br>
-              2021. Todos los derechos reservados. <br>  
+              2021. Todos los derechos reservados.<br>  
               All rights reserved.</p>
       </div>    
 </footer>       
 
-<script src="/js/form.js"></script> 
+    <script src="../TPOCTUBRE/js/form.js"></script> 
 </body>
 
 </html>

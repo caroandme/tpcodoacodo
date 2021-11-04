@@ -18,9 +18,8 @@ window.addEventListener('load', ()=> {
         const usuarioValor = usuario.value.trim()
         const apellidoValor = apellido.value.trim()
         const emailValor = email.value.trim()
-        const mensajeValor = mensaje.value.trim()
-        /*const passValor = pass.value.trim()
-        const passConfirmaValor = passConfirma.value.trim()*/;
+        const mensajeValor = mensaje.value.trim();
+       
      
         //validando campo usuario
         //(!usuarioValor) ? console.log('CAMPO VACIO') : console.log(usuarioValor)
