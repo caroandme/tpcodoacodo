@@ -494,6 +494,8 @@ top:5.75%;
     border: thin;
     
 }
+
+
   
   /*RESPONSIVE FOOTER */
 @media screen and (max-width: 650px) {
@@ -508,20 +510,29 @@ top:5.75%;
     .columnf1 {
       width: 100%;
       display: block;
+      
     }
     .columnf2 {
       width: 100%;
       display: block;
-      
-  }
-}
+          
+   }
+    .columnf2 h4{
+      margin-right:10%
+          }
+    #redes {
+      margin-right:10% ;
+    }
+    #final {
+      margin-right:10% ;
+    }
+ }
 
   /* RESPONSIVE FOOTER*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .footer div {
       float: none;
       display: block;
-      text-align: left;
     }
 }
 
